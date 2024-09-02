@@ -1,0 +1,60 @@
+# Відкрийте основний шаблон гітігнор для Visual Studio
+# Довідка: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# Конфігураційні файли користувача
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Файли IntelliSense
+*.sdf
+*.opensdf
+*.v11.suo
+
+# Шлях до кешу NuGet
+packages/*
+!packages/build/
+
+# Системні файли
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Шлях до файлів вихідного контролю версій
+.vs/
+_ReSharper*/
+*.ncrunchsolution
+*.ncrunchproject
+.DNDCache
+.vscode/
+ipch/
+*.aps
+*.vspscc
+*.vssscc
+
+# Конфігурації публікацій
+publish/
+**/publish/
+
+# Пакети NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Файли налагодження
+*.pidb
+*.svclog
+*.userprefs
+
+# Секретні файли
+appsettings.Development.json
+appsettings.Local.json
+
+# Сертифікати та ключі
+*.pfx
+*.p12
+
+# Файли залежностей
+*.config
